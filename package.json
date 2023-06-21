@@ -1,0 +1,26 @@
+{
+  "name": "snippet-try",
+  "displayName": "Snippet Try",
+  "description": "Snippettry",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "publisher": "ebrardev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ebrardev/snippet-try"
+  },
+  "icon": "4.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
